@@ -167,7 +167,7 @@ img{
     .nav-menu{
         position:fixed;
         top: 0;
-        right: 0;
+        right: -100%;
         background-color: black;
         width: 80%;
         height: 100%;
@@ -176,6 +176,13 @@ img{
         transition: right .4s;
     }
 }
+
+/*SHOW MENU*/
+.show-menu{
+    right: 0;
+}
+
+
 
 .nav-list{
     display: flex;
