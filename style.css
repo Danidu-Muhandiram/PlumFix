@@ -198,3 +198,22 @@ img{
     top: 1rem;
     right: 1.5rem;
 }
+
+
+
+/*BUTTON*/
+
+.button{
+    display: inline-flex;
+    background: rgb(32, 20, 201);
+    color: whitesmoke;
+    font-weight: var(--font-semi-bold);
+    padding: 1rem 2rem;
+    transition: box-shadow .4s;
+}
+
+.button:hover{
+    box-shadow: 0 6px 15px rgba(32, 20, 201, 0.7),
+              0 4px 6px rgba(255, 255, 255, 0.3);
+    color: whitesmoke;
+}
