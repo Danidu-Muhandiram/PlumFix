@@ -9,7 +9,7 @@
     --first-color: blue;
     --second-color: green;
     --text-color: black;
-    --title-color:dark blue;
+    --title-color:darkblue;
     --body-color: whitesmoke;
     --container-color: whitesmoke;
 
@@ -118,3 +118,83 @@ img{
     overflow: hidden;
 }
 
+/*HEADER */
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 10;
+}
+
+.nav{
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.nav-logo span{
+    color: whitesmoke;
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
+
+.nav-logo i{
+    color: var(--first-color);
+    font-size: 1.5rem;
+}
+
+.toggle-button, .nav-close{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+/*MOBILE DEVICE NAVIGATION*/
+
+@media screen and (max-width: 1150px){
+    .nav-menu{
+        position:fixed;
+        top: 0;
+        right: 0;
+        background-color: black;
+        width: 80%;
+        height: 100%;
+        padding: 7.5rem 3.5rem 0;
+        border-left: 2px solid var(--black-border);
+        transition: right .4s;
+    }
+}
+
+.nav-list{
+    display: flex;
+    flex-direction:column;
+    row-gap: 4rem;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-weight: var(--font-semi-bold);
+    transition: color .4s;
+}
+
+.nav-link:hover{
+    color: var(--first-color);
+}
+
+.nav-close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
