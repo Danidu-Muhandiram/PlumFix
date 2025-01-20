@@ -15,3 +15,13 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
+
+/*REMOVE MENU WHEN CLICK LINK*/
+const navLink = document.querySelectorAll('.nav-link')
+
+const linkAction = ()=>{
+const navLink = document.getElementById('nav-menu')
+navMenu.classList.remove('show-menu')
+}
+
+navLink.forEach(n=> n.addEventListener('click', linkAction))

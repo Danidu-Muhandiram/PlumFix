@@ -196,7 +196,7 @@ img{
     transition: color .4s;
 }
 
-.nav-link:hover{
+.nav-link:focus, .nav-link:hover {
     color: var(--first-color);
 }
 
