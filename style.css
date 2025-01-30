@@ -8,7 +8,8 @@
     /*COLORS*/
     --first-color: blue;
     --second-color: green;
-    --text-color: black;
+    --text-color: whitesmoke;
+    --text-color-light: rgba(245, 245, 245, 0.705);
     --title-color:darkblue;
     --body-color: whitesmoke;
     --container-color: whitesmoke;
@@ -16,7 +17,7 @@
 
     /*FONT STYLE*/
     --body-font: "Montserrat", sans-serif;
-    --big-font-size: 2.25rem;
+    --big-font-size: 2.0rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
@@ -236,7 +237,7 @@ img{
 .home-container{
     position: relative;
     row-gap: 3rem;
-    padding-block: 2.5rem 6rem;
+    padding-block: 4.5rem 6rem;
 }
 
 .home-content{
@@ -251,12 +252,12 @@ img{
     color: whitesmoke;
     font-size: var(--big-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .home-description{
     margin-bottom: 2.5rem;
-    color:var(--text-color);
+    color:var(--text-color-light);
 }
 
 .home-button{
