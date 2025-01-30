@@ -224,3 +224,76 @@ img{
               0 4px 6px rgba(255, 255, 255, 0.3);
     color: whitesmoke;
 }
+
+
+/*HOME SECTION*/
+
+#home{
+    position : relative;
+    background-color: rgb(7, 5, 44);
+}
+
+.home-container{
+    position: relative;
+    row-gap: 3rem;
+    padding-block: 2.5rem 6rem;
+}
+
+.home-content{
+    row-gap: 2.5rem;
+}
+
+.home-data{
+    text-align: center;
+}
+
+.home-title{
+    color: whitesmoke;
+    font-size: var(--big-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 1rem;
+}
+
+.home-description{
+    margin-bottom: 2.5rem;
+    color:var(--text-color);
+}
+
+.home-button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 1 rem;
+}
+
+.home-info{
+    display: flex;
+    justify-content: center;
+    column-gap: 4.5rem;
+}
+
+.home-info-title{
+    color: var(--second-color);
+    font-size: var(--big-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: .5rem;
+}
+
+.home-images{
+    position: relative;
+    justify-content: center;
+}
+
+.home-img-1{
+    width: 250px;
+    margin-left: 3.5rem;
+}
+
+.home-img-2{
+    width: 150px;
+    border: 5px solid var(--body-color);
+    position: absolute;
+    left: 0;
+    bottom: -3.5rem;
+}
+
