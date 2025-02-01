@@ -25,3 +25,15 @@ navMenu.classList.remove('show-menu')
 }
 
 navLink.forEach(n=> n.addEventListener('click', linkAction))
+
+
+/*CHANGE NAVIGATION BAR STYLE WHEN SCROLLING*/
+
+const bgHeader = ()=>{
+    const header = document.getElementById('header')
+    this.scrollY >= 50? header.classList.add('bg-header')
+    :header.classList.remove('bg-header')
+}
+
+window.addEventListener('scroll, bgHeader')
+bgHeader()
