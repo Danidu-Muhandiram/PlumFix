@@ -317,3 +317,8 @@ img{
     box-shadow: 0 4px 16px hsla(255, 90%, 8%, .1);
 }
 
+.bg-header .nav-logo span,
+.bg-header .toggle-button{
+    color: var(--title-color);
+}
+

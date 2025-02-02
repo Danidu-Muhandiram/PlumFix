@@ -31,9 +31,9 @@ navLink.forEach(n=> n.addEventListener('click', linkAction))
 
 const bgHeader = ()=>{
     const header = document.getElementById('header')
-    this.scrollY >= 50? header.classList.add('bg-header')
+    this.scrollY >= 50 ? header.classList.add('bg-header')
     :header.classList.remove('bg-header')
 }
 
-window.addEventListener('scroll, bgHeader')
+window.addEventListener('scroll', bgHeader)
 bgHeader()
